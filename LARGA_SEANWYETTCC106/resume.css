@@ -1,0 +1,148 @@
+:root {
+    --primary-color: #2c3e50;
+    --secondary-color: #34495e;
+    --accent-color: #2980b9;
+    --tect-color: #2d2d2d;
+    --muted-text: #666666;
+    --background-color: #ffffff;
+    --section-bg: #f7f9fc;
+    --border-color: #e0e0e0;
+    
+    --font-heading: "Merriweather", serif;
+    --font-body: "Roboto", sans-serif;
+    --font-sized-base: 16px;
+    --font-size-small: 14px;
+    --font-size-large: 20px;
+    --line-height: 1.6;
+
+    --spacing-xs: 4px;
+    --spasing-sm: 8px;
+    --spacing-md: 16px;
+    --spacing-lg: 24px;
+    --spacing-xl: 40px;
+
+    --border-radius: 6px;
+    --box-shadow: 0 2px 8px rgba(0,0,0,0.5);
+
+    --content-width: 900px;
+}
+
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+}
+
+header {
+    font-family: var(--font-heading);
+    line-height: var(--line-height);
+    color: var(--text-color);
+    background-color: var(--background-color);
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    font-family: var(--font-body);
+    line-height: var(--line-height);
+    border: 2px solid black;
+    padding: 20px;
+}
+
+main h2 {
+    font-family: var(--font-heading);
+    font-size: var(--font-size-large);    
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    height: 40px;
+    border: 2px solid black;
+    position: sticky; top: 0;
+    background-color: white;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    list-style-type: none;
+    width: 100%;
+}
+
+nav ul li{
+    border: 2px solid black;
+    margin: 2px;
+    color: black;
+}
+
+nav a{
+    justify-content: center;
+    text-decoration: none;
+}
+
+.images{
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+}
+
+.images img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin: 10px;
+}
+
+h1{
+    text-align: center;
+}
+
+.profile{
+    display: flex;
+    padding-bottom: 40px;
+}
+
+.profile h2 {
+    font-size: 30px;
+}
+
+.info {
+    margin: 20px;
+    margin-top: 0px;
+    padding: 0px;
+    font-family: var(--font-heading);
+    line-height: var(--line-height);
+    color: var(--text-color);
+    background-color: var(--background-color);
+}
+
+body h2{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.educ {
+    display: flex;
+}
+
+.educ div{
+    margin-right: 100px;
+}
+
+.yr{
+    width: 150px;
+}
+
+.yrlvl div{
+    display: flex;
+}
+
+ul{
+    margin: 0px 30px;
+    padding: 0px;
+}
